@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-very-light-blue">
+    <div class="flex flex-row h-screen font-Hanken-Grotesk">
+      <div
+        class="m-auto flex flex-col md:flex-row bg-white rounded-[8%] md:w-[46rem]"
+      >
+        <div
+          class="text-center bg-gradient-to-b from-light-purple to-dark-purple w-screen md:w-[23rem] h-[32rem] rounded-b-[5%] md:rounded-[8%]"
+        >
+          <div class="flex flex-col justify-between">
+            <h1
+              class="text-[24px] mt-[2rem] mb-[2rem] font-bold text-light-blue"
+            >
+              Your Result
+            </h1>
+            <div
+              class="bg-gradient-to-b from-gradient2-purple-light to-95% w-[12.5rem] h-[12.5rem] rounded-[70%] mx-auto pt-8 mb-[1.75rem]"
+            >
+              <p class="font-extrabold text-[4.5rem] text-white">76</p>
+              <p class="text-light-blue">of 100</p>
+            </div>
+
+            <h2 class="text-[32px] font-bold text-white mb-[1rem]">Great</h2>
+
+            <p
+              class="md:w-[14rem] w-[16rem] text-center items-baseline mx-auto text-light-blue"
+            >
+              Your performance exceed 65% of the people conducting the test
+              here!
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col p-8">
+          <h1 class="text-dark-navy font-bold text-[24px]">Summary</h1>
+          <div class="flex flex-col mt-[1.75rem]">
+            <div
+              class="flex flex-row mb-[1rem] bg-red bg-opacity-5 w-full md:w-[18rem] h-[3.5rem] items-center p-2 rounded-xl justify-between"
+            >
+              <div class="flex flex-row">
+                <img
+                  src="../assets/images/icon-reaction.svg"
+                  alt="reaction logo"
+                />
+                <p class="font-medium text-[18px] text-red">Reaction</p>
+              </div>
+              <p class="text-[18px] text-dark-navy text-right">
+                80 <span class="opacity-50"> / 100</span>
+              </p>
+            </div>
+
+            <div
+              class="flex flex-row justify-between mb-[1rem] bg-yellow bg-opacity-5 w-full md:w-[18rem] h-[3.5rem] items-center p-2 rounded-xl"
+            >
+              <div class="flex flex-row gap-[1rem]">
+                <img src="../assets/images/icon-memory.svg" alt="memory logo" />
+                <p class="font-medium text-[18px] text-yellow">Memory</p>
+              </div>
+              <p class="text-[18px] text-dark-navy">
+                92 <span class="opacity-50"> / 100</span>
+              </p>
+            </div>
+
+            <div
+              class="flex flex-row justify-between mb-[1rem] bg-green bg-opacity-5 w-full md:w-[18rem] h-[3.5rem] items-center p-2 rounded-xl"
+            >
+              <div class="flex flex-row gap-[1rem]">
+                <img src="../assets/images/icon-verbal.svg" alt="verbal log" />
+                <p class="font-medium text-[18px] text-green">Verbal</p>
+              </div>
+              <p class="text-[18px] text-dark-navy">
+                61 <span class="opacity-50"> / 100</span>
+              </p>
+            </div>
+
+            <div
+              class="flex flex-row justify-between mb-[1rem] bg-blue bg-opacity-5 w-full md:w-[18rem]h-[3.5rem] items-center p-2 rounded-xl"
+            >
+              <div class="flex flex-row gap-[1rem]">
+                <img src="../assets/images/icon-visual.svg" alt="visual log" />
+                <p class="font-medium text-[18px] text-blue">Visual</p>
+              </div>
+              <p class="text-[18px] text-dark-navy">
+                80 <span class="opacity-50"> / 100</span>
+              </p>
+            </div>
+          </div>
+          <button
+            class="mt-[2.56rem] bg-dark-navy rounded-full text-white text-[18px] w-full md:w-[18rem] h-[3.5rem] hover:bg-gradient-to-b from-light-purple to-dark-purple"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
